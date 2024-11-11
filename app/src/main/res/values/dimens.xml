@@ -3,4 +3,6 @@
     <dimen name="side">16dp</dimen>
     <dimen name="sizebutton">61dp</dimen>
     <dimen name="leftSizeSetting">18dp</dimen>
+    <dimen name="zeropad">0dp</dimen>
+    <dimen name="eightpad">8dp</dimen>
 </resources>
