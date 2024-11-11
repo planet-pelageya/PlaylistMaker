@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="28dp"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:background="?attr/selectableItemBackground"
+                android:src="@drawable/arrowback"
+                android:padding="8dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:paddingStart="12dp"
+            android:text="@string/settings"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+                android:paddingTop="14dp
+"
+            android:layout_weight="1" />
+        </LinearLayout>
+
+
+        <Switch
+            android:id="@+id/mySwitch"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sizebutton"
+            android:paddingStart="@dimen/side"
+            android:text="@string/darkmode"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            tools:ignore="RtlSymmetry,UseSwitchCompatOrMaterialXml" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sizebutton"
+            android:paddingStart="@dimen/side"
+            android:text="@string/share"
+            android:paddingEnd="@dimen/leftSizeSetting"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            app:drawableEndCompat="@drawable/share" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sizebutton"
+            android:paddingStart="@dimen/side"
+            android:text="@string/support"
+            android:paddingEnd="@dimen/leftSizeSetting"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            app:drawableEndCompat="@drawable/support" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sizebutton"
+            android:paddingStart="@dimen/side"
+            android:text="@string/contract"
+            android:paddingEnd="@dimen/leftSizeSetting"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            app:drawableEndCompat="@drawable/arrowforward" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
