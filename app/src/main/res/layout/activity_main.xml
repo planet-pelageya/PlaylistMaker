@@ -25,7 +25,7 @@
             android:layout_marginBottom="@dimen/side"
             android:text="@string/app_name"
             android:textColor="@color/white"
-            android:textSize="22sp" />
+            android:textSize="@dimen/textSize" />
     </LinearLayout>
 
     <LinearLayout
@@ -48,9 +48,9 @@
             android:insetBottom="@dimen/zeropad"
             android:text="@string/Search"
             android:textColor="@color/black"
-            android:textSize="22sp"
+            android:textSize="@dimen/textSize"
             app:backgroundTint="@color/white"
-            app:cornerRadius="16dp"
+            app:cornerRadius="@dimen/side"
             app:icon="@drawable/search"
             app:iconGravity="textStart"
             app:iconTint="@color/black"
@@ -69,9 +69,9 @@
             android:insetBottom="@dimen/zeropad"
             android:text="@string/Медиатека"
             android:textColor="@color/black"
-            android:textSize="22sp"
+            android:textSize="@dimen/textSize"
             app:backgroundTint="@color/white"
-            app:cornerRadius="16dp"
+            app:cornerRadius="@dimen/side"
             app:icon="@drawable/mediateka"
             app:iconGravity="textStart"
             app:iconTint="@color/black"
@@ -91,9 +91,9 @@
             android:insetBottom="@dimen/zeropad"
             android:text="@string/Settings"
             android:textColor="@color/black"
-            android:textSize="22sp"
+            android:textSize="@dimen/textSize"
             app:backgroundTint="@color/white"
-            app:cornerRadius="16dp"
+            app:cornerRadius="@dimen/side"
             app:icon="@drawable/settings"
             app:iconGravity="textStart"
             app:iconTint="@color/black"

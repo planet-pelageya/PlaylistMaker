@@ -5,4 +5,7 @@
     <dimen name="leftSizeSetting">18dp</dimen>
     <dimen name="zeropad">0dp</dimen>
     <dimen name="eightpad">8dp</dimen>
+    <dimen name="settings_height">56dp</dimen>
+    <dimen name="textSize">22sp</dimen>
+    <dimen name="SettinsTextSize">16sp</dimen>
 </resources>
