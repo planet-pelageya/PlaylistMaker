@@ -51,7 +51,7 @@
             android:paddingStart="@dimen/side"
             android:text="@string/darkmode"
             android:gravity="center_vertical"
-            android:textSize="@dimen/SettinsTextSize"
+            android:textSize="@dimen/SettingsTextSize"
             android:textColor="@android:color/black"
             tools:ignore="RtlSymmetry,UseSwitchCompatOrMaterialXml" />
 
@@ -62,7 +62,7 @@
             android:text="@string/share"
             android:paddingEnd="@dimen/leftSizeSetting"
             android:gravity="center_vertical"
-            android:textSize="@dimen/SettinsTextSize"
+            android:textSize="@dimen/SettingsTextSize"
             android:textColor="@color/black2"
             app:drawableEndCompat="@drawable/share" />
 
@@ -73,7 +73,7 @@
             android:text="@string/support"
             android:paddingEnd="@dimen/leftSizeSetting"
             android:gravity="center_vertical"
-            android:textSize="@dimen/SettinsTextSize"
+            android:textSize="@dimen/SettingsTextSize"
             android:textColor="@color/black2"
             app:drawableEndCompat="@drawable/support" />
 
@@ -84,7 +84,7 @@
             android:text="@string/contract"
             android:paddingEnd="@dimen/leftSizeSetting"
             android:gravity="center_vertical"
-            android:textSize="@dimen/SettinsTextSize"
+            android:textSize="@dimen/SettingsTextSize"
             android:textColor="@color/black2"
             app:drawableEndCompat="@drawable/arrowforward" />
 

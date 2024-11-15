@@ -40,10 +40,10 @@
             android:id="@+id/firstbutton"
             android:layout_width="match_parent"
             android:layout_height="@dimen/zeropad"
-            android:layout_weight="1"
             android:layout_marginStart="@dimen/side"
             android:layout_marginEnd="@dimen/side"
             android:layout_marginBottom="@dimen/eightpad"
+            android:layout_weight="1"
             android:insetTop="@dimen/zeropad"
             android:insetBottom="@dimen/zeropad"
             android:text="@string/Search"
@@ -53,8 +53,9 @@
             app:cornerRadius="@dimen/side"
             app:icon="@drawable/search"
             app:iconGravity="textStart"
+            app:iconPadding="@dimen/eightpad"
             app:iconTint="@color/black"
-            app:iconPadding="@dimen/eightpad"/>
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/secondbutton"
@@ -67,7 +68,7 @@
             android:layout_weight="1"
             android:insetTop="@dimen/zeropad"
             android:insetBottom="@dimen/zeropad"
-            android:text="@string/Медиатека"
+            android:text="@string/mediateka"
             android:textColor="@color/black"
             android:textSize="@dimen/textSize"
             app:backgroundTint="@color/white"
@@ -76,6 +77,7 @@
             app:iconGravity="textStart"
             app:iconTint="@color/black"
             app:iconPadding="@dimen/eightpad"
+            android:textAllCaps="false"
             />
 
         <Button
@@ -97,7 +99,8 @@
             app:icon="@drawable/settings"
             app:iconGravity="textStart"
             app:iconTint="@color/black"
-            app:iconPadding="@dimen/eightpad"/>
+            app:iconPadding="@dimen/eightpad"
+            android:textAllCaps="false" />
 
 
     </LinearLayout>

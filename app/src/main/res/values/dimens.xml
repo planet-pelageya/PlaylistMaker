@@ -7,5 +7,5 @@
     <dimen name="eightpad">8dp</dimen>
     <dimen name="settings_height">56dp</dimen>
     <dimen name="textSize">22sp</dimen>
-    <dimen name="SettinsTextSize">16sp</dimen>
+    <dimen name="SettingsTextSize">16sp</dimen>
 </resources>
