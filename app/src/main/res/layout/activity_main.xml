@@ -33,8 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingTop="80dp"
-        >
+        android:paddingTop="80dp">
 
         <Button
             android:id="@+id/firstbutton"
@@ -47,6 +46,7 @@
             android:insetTop="@dimen/zeropad"
             android:insetBottom="@dimen/zeropad"
             android:text="@string/Search"
+            android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="@dimen/textSize"
             app:backgroundTint="@color/white"
@@ -55,7 +55,7 @@
             app:iconGravity="textStart"
             app:iconPadding="@dimen/eightpad"
             app:iconTint="@color/black"
-            android:textAllCaps="false" />
+            android:letterSpacing= "@dimen/zero"/>
 
         <Button
             android:id="@+id/secondbutton"
@@ -69,38 +69,39 @@
             android:insetTop="@dimen/zeropad"
             android:insetBottom="@dimen/zeropad"
             android:text="@string/mediateka"
+            android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="@dimen/textSize"
             app:backgroundTint="@color/white"
             app:cornerRadius="@dimen/side"
             app:icon="@drawable/mediateka"
             app:iconGravity="textStart"
-            app:iconTint="@color/black"
             app:iconPadding="@dimen/eightpad"
-            android:textAllCaps="false"
-            />
+            app:iconTint="@color/black"
+            android:letterSpacing= "@dimen/zero"/>
 
         <Button
             android:id="@+id/thirdbutton"
             android:layout_width="match_parent"
             android:layout_height="@dimen/zeropad"
-            android:layout_weight="1"
             android:layout_marginStart="@dimen/side"
             android:layout_marginTop="@dimen/eightpad"
             android:layout_marginEnd="@dimen/side"
             android:layout_marginBottom="28dp"
+            android:layout_weight="1"
             android:insetTop="@dimen/zeropad"
             android:insetBottom="@dimen/zeropad"
             android:text="@string/Settings"
+            android:letterSpacing= "@dimen/zero"
+            android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="@dimen/textSize"
             app:backgroundTint="@color/white"
             app:cornerRadius="@dimen/side"
             app:icon="@drawable/settings"
             app:iconGravity="textStart"
-            app:iconTint="@color/black"
             app:iconPadding="@dimen/eightpad"
-            android:textAllCaps="false" />
+            app:iconTint="@color/black" />
 
 
     </LinearLayout>
